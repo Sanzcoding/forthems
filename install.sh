@@ -17,7 +17,7 @@ echo ""
 }
 
 verify_license() {
-LICENSE_KEY="joey1212"  
+LICENSE_KEY="xlanzz"  
 
 read -p "TYPE YOUR LICENSE: " INPUT_KEY
 
@@ -34,9 +34,9 @@ fi
 themestall() {
 echo -e "${CYAN}=== PROSES INSTALASI ===${RESET}"
 
-GITHUB_TOKEN="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"
-REPO_URL="https://${GITHUB_TOKEN}@github.com/Sanzzdev/themoon.git"
-TEMP_DIR="themoon"
+GITHUB_TOKEN="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"
+REPO_URL="https://${GITHUB_TOKEN}@github.com/Sanzcoding/forthems.git"
+TEMP_DIR="forthems"
 
 git clone "$REPO_URL"
 sudo mv "$TEMP_DIR/ElysiumTheme.zip" /var/www/
@@ -81,9 +81,9 @@ fi
 billingthme() {
 echo -e "${CYAN}=== PROSES INSTALASI ===${RESET}"
 
-GITHUB_TOKEN="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"
-REPO_URL="https://${GITHUB_TOKEN}@github.com/Sanzzdev/themoon.git"
-TEMP_DIR="themoon"
+GITHUB_TOKEN="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"
+REPO_URL="https://${GITHUB_TOKEN}@github.com/Sanzcoding/forthems.git"
+TEMP_DIR="forthems"
 
 git clone "$REPO_URL"
 sudo mv "$TEMP_DIR/ThemaBilling.zip" /var/www/
